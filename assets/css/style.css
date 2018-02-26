@@ -15,7 +15,7 @@
 
 body {
     background-color: darkslategray;
-    background-image: url("../images/binding_dark.png");
+    /* background-image: url("../images/binding_dark.png"); */
     min-height: 100%;
     margin: auto;    
 }
@@ -210,3 +210,44 @@ input {
     margin-bottom: 10px;
 }
 
+@media screen and (max-width: 768px) {
+    /* The body's bg color will be #333 */
+    body {
+        background-color: #333;
+    }
+
+    main {
+        width: 50%;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-left: 30px;
+    }
+    
+    section {
+        width: 40%;
+        margin-left: 55%;
+    }
+
+    p {
+        font-size: 14pt;
+    }
+}
+
+/* @media screen and (max-width: 640px) {
+    body {
+        background-color: grey;
+    }
+    main {
+        width: 90%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    section {
+        position: relative;
+
+
+    } */
+
+
+}
