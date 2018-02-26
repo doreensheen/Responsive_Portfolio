@@ -1,0 +1,212 @@
+
+/* List of color scheme and font styles */
+/*  */
+/* Teal color (used for headings and backgrounds): #4aaaa5 */
+/* Regular font color (used for paragraphs and all text besides the headings): #777777 */
+/* Main header background color: #ffffff */
+/* Main header border color: #cccccc */
+/* Footer background color: #666666 */
+/* Main content background color: #ffffff */
+/* Main content border color: #dddddd */
+/* For heading fonts use font-family: 'Georgia', Times, Times New Roman, serif;. */
+/* For all other fonts use 'Arial', 'Helvetica Neue', Helvetica, sans-serif;. */
+/*  */
+
+
+body {
+    background-color: darkslategray;
+    background-image: url("../images/binding_dark.png");
+    min-height: 100%;
+    margin: auto;    
+}
+
+.banner {
+    background-color: #ffffff;
+    font-size: 20pt;
+    margin: 0 auto;
+    border-bottom: 3px solid #cccccc;
+
+    
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #ffffff;
+    font-size: 20pt;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+nav {
+    text-align: right;
+    font-size: 16pt;
+    float: right;
+    padding-top: 10px;
+}
+
+main, section {
+    background-color: #ffffff;
+    color: #777777;
+    font-size: 16pt;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: #dddddd;    
+    position: absolute;
+    display: inline-block;
+    margin-top: 40px;
+}
+
+main {
+    width: 610px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+
+section {
+    width: 270px;
+    margin-left: 690px;
+    text-align: center;
+}
+
+footer {
+    background-color: #666666;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 20px;
+    border-top: 10px solid #4aaaa5;
+    position: relative;
+    margin-top: 700px;
+}
+
+h1, h2, h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px;
+    font-weight: bold;
+}
+
+h1 {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    font-size: 24pt;
+    width: auto;
+    padding: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+h2 {
+    color: #4aaaa5;
+    font-size: 24pt;
+    border-bottom: 3px solid #cccccc;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 0px;
+}
+
+h3 {
+    color: #4aaaa5;
+    font-size: 16pt;
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-bottom: 2px solid #cccccc;
+    padding-left: 0px;
+}
+
+p {
+    padding-top: 20px;
+    padding-bottom:20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 125%;
+}
+
+ul {
+    list-style: none;
+    float: auto;
+    padding-left: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+h1, nav {
+    display: inline-block;
+}
+
+li {
+    display: inline-block;
+    padding: 5px;
+}
+
+li a {
+    color: #777777;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.grayslash {
+    padding-right: 10px;
+    border-right: 1px solid #cccccc;
+}
+
+#profilepic {
+    float: left;
+    transform: rotate(90deg);
+    margin: 0px;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    margin-right: 0px;
+}
+
+.form {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.formlist {
+    display: inherit;
+}
+
+input {
+    width: -webkit-fill-available;
+    margin-bottom: 20px;
+    block-size: 20px;
+}
+
+#messagebox {
+    block-size: 100px;
+}
+
+#submitbutton {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    font-size: 16pt;
+    width: auto;
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    block-size: auto;
+    
+}
+
+#portfoliolist {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.portfoliolistitems {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    width: 250px;
+    position: absolute;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
